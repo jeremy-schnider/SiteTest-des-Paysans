@@ -1,3 +1,3 @@
 # Notre site test 
-Ceci est un petit site de test en collaboration pour pouvoir évaluer notre niveau en html/css
+Ceci est un petit site de test en collaboration pour pouvoir évaluer notre niveau en html/css 
 Je ne suis pas un citadin.
