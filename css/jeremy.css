@@ -1,7 +1,9 @@
+/* RESET */
 * {
     box-sizing: border-box;
 }
 
+/* Images */
 img {
     height: auto;
     width: 320px;
@@ -11,3 +13,56 @@ main {
     margin: 30px;
 }
 
+h1 {
+    text-align: center;
+}
+
+.icon {
+    width: 50px;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1001;
+}
+
+.icon.active {
+    transform: rotate(180deg); /* tourne quand menu ouvert */
+}
+
+
+/* Menu latéral */
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: -250px; /* caché à gauche */
+    width: 250px;
+    height: 100%;
+    background-color: #FFA500; /* orange */
+    box-shadow: 2px 0 5px rgba(0,0,0,0.3);
+    padding-top: 60px;
+    transition: left 0.4s ease;
+    z-index: 1000;
+}
+
+.side-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side-menu ul li {
+    margin: 20px 0;
+}
+
+.side-menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Quand le menu est ouvert */
+.side-menu.open {
+    left: 0;
+}

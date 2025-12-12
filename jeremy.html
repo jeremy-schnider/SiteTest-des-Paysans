@@ -3,50 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Non</title>
-    <meta name="author" content="Jérémy Schnider">
-    <meta name="description" content="Site fait par moi ainsi que Arthur">
-    <link rel="icon" href="favicon.ico"/>
+    <title>Orange !</title>
     <link rel="stylesheet" href="css/jeremy.css"/>
-    <link rel="stylesheet" href="css/normalize.css"/>
 </head>
 <body>
-<main>
-    <h1>Je suis la page de JEREMY.HTML</h1>
-    <p>Je suis un paragraphe !</p>
 
-    <img src="img/wojak.jpg" alt="C'est une image troll !" class="wojak">
-    <-- C'est une image !
+<header>
+    <!-- Le bouton orange -->
+    <img id="burgerBtn" src="img/burger.png" alt="Menu" class="icon">
+</header>
 
-    <br>
-    <br>
-
-    <a href="#">Je suis un lien qui ammène en haut de cette page !</a>
-    <br>
-    <a href="https://open.spotify.com/playlist/2EiF7nZORoO680uRhi9czf">Je suis un lien qui amène sur une page externe (ici mon spotify)</a>
-    <br>
-    <a href="mailto:jeremy.schnider@bluewin.ch">Je suis un lien qui ouvre mail</a>
-
-    <ol>
-        <li>Je suis dans une liste à puces organisée!</li>
-        <li>Je suis aussi dans la liste à puces organisée!</li>
-        <li>Je suis encore dans la liste à puces organisée!</li>
-    </ol>
+<!-- Menu latéral -->
+<nav id="sideMenu" class="side-menu">
 
     <ul>
-        <li>Je suis dans une liste à puces désorganisé</li>
-        <li>Je suis aussi dans une liste à puces désorganisé</li>
-        <li>Je suis encore dans une liste à puces désorganisé</li>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="matteo.html">Page Matteo</a></li>
+        <li><a href="jeremy.html">Page Jérémy</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h1>Ceci est un site sur LES oranges !</h1>
+
+    <figure>
+        <img src="img/wojak.jpg" alt="C'est une image troll !" class="wojak">
+        <figcaption>Je suis LA image !</figcaption>
+    </figure>
+
+    <ul>
+        <li>Je suis dans une liste à puces désorganisée</li>
+        <li>Je suis aussi dans une liste à puces désorganisée</li>
+        <li>Je suis encore dans une liste à puces désorganisée</li>
     </ul>
 
-    <a href="index.html">Accueil index.html</a>
-    <br>
-    <a href="matteo.html">Page matteo.html</a>
-    <br>
-    <a href="jeremy.html">Page jeremy.html</a>
+    <ul>
+        <li><a href="index.html">Index.html</a></li>
+        <li><a href="matteo.html">Matteo.html</a></li>
+        <li><a href="jeremy.html">Jeremy.html</a></li>
+    </ul>
+
 </main>
+
 <footer>
-    &copy;Je suis le footer !
+    &copy; Je suis le footer !
 </footer>
+
+<script src="index.js"></script>
 </body>
 </html>
